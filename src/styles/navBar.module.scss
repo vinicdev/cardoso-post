@@ -1,0 +1,78 @@
+@import './_vars';
+
+.nav {
+    a {
+        text-decoration: none;
+        font-weight: 500;
+    }
+
+    width: 100%;
+    height: 110px;
+    background-color: #1A1A1B;
+
+    @include d-flex(row, center, space-between);
+    padding: 10px 80px;
+
+    &__title {
+        font-size: clamp(1rem, 4vw, 2rem);
+        color: #f2f2f2;  
+        text-transform: uppercase;
+        font-weight: 300;
+
+        strong {
+            font-weight: 700;  
+            color: #BB131A;
+        }  
+
+        &::before {
+            content: ".";
+            color: #BB131A;
+            font-size: clamp(1rem, 4vw, 3rem);
+        }
+    }
+
+    &__container {
+        display: flex;
+        @include d-flex(row, center, center);
+        gap: 24px;
+
+        @media (max-width: 730px) {
+            display: none;
+        }
+    }
+
+    &__menuActive {
+        position: absolute;
+        right: 0;
+        width: 55%;
+        height: 90%;
+        top: 13%;
+        background-color: #ffffff65;
+    }
+
+    &__link {
+        font-size: 1rem;
+        color: $basic-200;
+        font-weight: 400;
+        transition: .8;
+
+        &:hover {
+            color: #BB131A;
+        }
+    }
+
+    svg {
+        color: #f2f2f2;
+        width: 25px;
+        height: 22px;
+        display: none;
+
+        @media (max-width: 730px) {
+            display: block;
+        }
+    }
+
+    @media (max-width: 540px) {
+        padding: 10px 20px;
+    }
+}

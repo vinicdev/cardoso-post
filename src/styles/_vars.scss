@@ -1,0 +1,21 @@
+// COLORS
+$basic-700: #09090B;
+$basic-600: #303031;
+$basic-500: #575758;
+$basic-400: #7E7E7F;
+$basic-300: #A4A4A5;
+$basic-200: #CBCBCC;
+$basic-100: #F2F2F2;
+
+$black-400: #09090B;
+$black-300: #121213;
+$black-200: #1A1A1B;
+$black-100: #232323;
+
+// MIXINS
+@mixin d-flex ($fd, $ai, $jc) {
+    display: flex;
+    flex-direction: $fd;
+    align-items: $ai;
+    justify-content: $jc;
+}
