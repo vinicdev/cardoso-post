@@ -1,9 +1,12 @@
 import '@/styles/globals.scss'
 import header from '@/styles/navBar.module.scss';
+import footer from '@/styles/Footer.module.scss';
 import Head from 'next/head'
 import Link from 'next/link';
 import { useState } from 'react';
 import { ImMenu } from 'react-icons/im';
+import { BsLinkedin, BsGithub } from 'react-icons/bs'
+import Image from 'next/image';
 
 
 export default function App({ Component, pageProps }) {
@@ -33,13 +36,37 @@ export default function App({ Component, pageProps }) {
           </Link>
         </nav>
 
-        <ImMenu 
-          className='menu' 
+        <ImMenu
+          className='menu'
           onClick={() => setActive(!active)}
         />
       </header>
 
       <Component {...pageProps} />
+
+      <footer className={footer.footer}>
+        <Image
+          src="/logo.png"
+          alt="Logo cardoso post"
+          width={42}
+          height={25}
+        />
+        <nav className={footer.footer__container}>
+          <ul className={footer.footer__list}>
+            <Link href="https://www.linkedin.com/in/vinicdev/" className={footer.footer__link}>
+              <li className={footer.footer__item}>
+                <BsLinkedin className={footer.footer__icons} />
+              </li>
+            </Link>
+
+            <Link href="https://github.com/vinicdev" className={footer.footer__link}>
+              <li className={footer.footer__item}>
+                <BsGithub className={footer.footer__icons} />
+              </li>
+            </Link>
+          </ul>
+        </nav>
+      </footer>
     </>
 
   )

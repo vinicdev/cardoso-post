@@ -1,5 +1,5 @@
 .container {
-  width: 80%;
+  width: 65%;
   height: 200vh;
   display: flex;
   flex-direction: column;
@@ -14,7 +14,7 @@
 
   &__list {
     list-style: none;
-    margin-top: 12px;
+    margin: 12px auto;
     display: flex;
     flex-direction: column;
     gap: 8px;
@@ -22,10 +22,12 @@
 
   &__item {
     background-color: #f2f2f2;
+    height: auto;
     padding: 12px;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 8px;
   }
 

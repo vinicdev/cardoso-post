@@ -1,0 +1,34 @@
+@import './_vars';
+
+.footer {
+    padding: 12px 60px;
+    width: 100%;
+    height: 90px;
+    background-color: $black-200;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__list {
+        display: flex;
+        flex-direction: row;
+        gap: 12px;
+    }
+
+    &__item {
+        background-color: $basic-300;
+        list-style: none;
+        width: 36px;
+        height: 36px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: $basic-600;
+        border-radius: 6px;
+    }
+
+    &__icons {
+        width: 24px;
+        height: 24px;
+    }
+}
