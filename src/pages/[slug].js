@@ -3,8 +3,8 @@ import getPosts  from "@/lib/posts";
 
 const Post = ({ title, date, markdown }) => (
     <article>
-        <h1>{title}</h1>
-        <time>{date}</time>
+        {/* <h1>{title}</h1>
+        <time>{date}</time> */}
         <ReactMarkdown>{markdown}</ReactMarkdown>
     </article>
 );

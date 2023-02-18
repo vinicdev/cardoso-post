@@ -12,6 +12,11 @@ $black-300: #121213;
 $black-200: #1A1A1B;
 $black-100: #232323;
 
+$red-400: #BB131A;
+$red-300: #A40D11;
+$red-200: #8C0609;
+$red-100: #750000;
+
 // MIXINS
 @mixin d-flex ($fd, $ai, $jc) {
     display: flex;

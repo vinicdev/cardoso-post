@@ -16,6 +16,7 @@ const getPosts = async () => {
         slug: filename.replace(/\.md$/, ""),
         title: document.data.title,
         date: document.data.date,
+        prev: document.data.prev,
         markdown: document.content,
       };
     })
