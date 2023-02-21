@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ['latin'] })
 const Blog = ({ posts }) => {
   return (
     <>
-      <div className={styles.container}>
+      <div>
         <h1 className={styles.container__title}>Posts</h1>
         <ul className={styles.container__list}>
           {posts.map(({ slug, title, prev }) => (
