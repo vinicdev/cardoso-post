@@ -6,7 +6,7 @@ prev: Essa postagem não é dicas de sites para conseguir freelas, é um passo a
 
 # Como conseguir seu primeiro freela como desenvolvedor frontend 🤔
 
-![Banner da postagem](/como-conseguir-seu-primeiro-freela.png)
+![Banner da postagem](/img.jpeg)
 
 Sem sombra de dúvidas é a pergunta que mais recebo dos meus seguidores no meu [Instagram](https://www.instagram.com/iuricode/). Até porque quem não quer ser empreendedor e ter seu próprio negócio, né?
 
@@ -44,7 +44,7 @@ Quer aprender desenvolvimento frontend do zero?
 
 O [eFront](https://iuricode.com/efront/) é um ebook criado por mim onde eu ensino **HTML, CSS, JavaScript, Sass, Bootstrap, React, React Router, TypeScript, styled-components, Tailwind CSS e React Hook Form**. Tudo isso é ensinado com linguagem simples de entender, até quem está iniciando consegue entender o que cada linguagem faz.
 
-![Banner do eFront](/efront.png)
+![Banner do eFront](/img.jpeg)
 
 Mais de **2.500 pessoas já compraram**, você vem comigo?
 
@@ -89,3 +89,8 @@ A produção de conteúdo faz a sua rede engajar audiência, aumentar conexões 
 E aí, gostou da postagem? Me manda um feedback no [Instagram](https://www.instagram.com/iuricode/) para melhorar cada vez mais! 😁
 
 Esse projeto é **[open source](https://github.com/iuricode/blog)**, então basta adicionar uma nova feature e abrir um pull-request. Dessa maneira você irá contribuir com a comunidade.
+
+
+Publicado em: 24/02/2023
+ 
+Autor: Vinicius Cardoso

@@ -1,8 +1,9 @@
 import ReactMarkdown from "react-markdown";
 import getPosts  from "@/lib/posts";
+import post from "@/styles/post.module.scss";
 
 const Post = ({ title, date, markdown }) => (
-    <article>
+    <article className={post.containter}>
         {/* <h1>{title}</h1>
         <time>{date}</time> */}
         <ReactMarkdown>{markdown}</ReactMarkdown>
