@@ -6,7 +6,6 @@ import Head from 'next/head'
 import Link from 'next/link';
 import { useState } from 'react';
 import { ImMenu } from 'react-icons/im';
-import { BsLinkedin, BsGithub } from 'react-icons/bs'
 import Image from 'next/image';
 
 
@@ -30,9 +29,7 @@ export default function App({ Component, pageProps }) {
             <Link href="/">
               <p className={header.nav__link}>Home</p>
             </Link>
-            <Link href="#posts">
-              <p className={header.nav__link}>Posts</p>
-            </Link>
+            
             <Link href="/about">
               <p className={header.nav__link}>Sobre</p>
             </Link>
@@ -55,21 +52,13 @@ export default function App({ Component, pageProps }) {
             width={42}
             height={25}
           />
-          <nav className={footer.footer__container}>
-            <ul className={footer.footer__list}>
-              <Link href="https://www.linkedin.com/in/vinicdev/" className={footer.footer__link}>
-                <li className={footer.footer__item}>
-                  <BsLinkedin className={footer.footer__icons} />
-                </li>
-              </Link>
 
-              <Link href="https://github.com/vinicdev" className={footer.footer__link}>
-                <li className={footer.footer__item}>
-                  <BsGithub className={footer.footer__icons} />
-                </li>
-              </Link>
-            </ul>
-          </nav>
+          <div className={footer.footer__author}>
+            Powered by 
+            <Link href="https://github.com/vinicdev">
+                Vinicius Cardoso
+            </Link>
+          </div>
         </footer>
       </main>
     </>

@@ -1,7 +1,7 @@
 @import './_vars';
 
 .footer {
-    padding: 12px 60px;
+    padding: 10px 90px;
     width: 100%;
     height: 90px;
     background-color: $black-200;
@@ -9,26 +9,30 @@
     align-items: center;
     justify-content: space-between;
 
-    &__list {
-        display: flex;
-        flex-direction: row;
-        gap: 12px;
+    &__author {
+        color: #f2f2f2;
+        font-weight: 300;
+        font-size: .875rem;
+
+        a {
+            font-size: .9375rem;
+            margin-left: 8px;
+            color: #BB131A;
+            text-decoration: none;
+            font-weight: 500;
+            transition: .8s;
+
+            &:hover {
+                color: #693637;
+            }
+        }
+
+        @media (max-width: 600px) {
+            display: none;
+        }
     }
 
-    &__item {
-        background-color: $basic-300;
-        list-style: none;
-        width: 36px;
-        height: 36px;
-        display: flex;
-        align-items: center;
+    @media (max-width: 600px) {
         justify-content: center;
-        color: $basic-600;
-        border-radius: 6px;
-    }
-
-    &__icons {
-        width: 24px;
-        height: 24px;
     }
 }
