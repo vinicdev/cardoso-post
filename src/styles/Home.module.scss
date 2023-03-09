@@ -75,7 +75,11 @@
     color: #fff;
   }
 
-  @media(max-width: 768px) {
+  @media(max-width: 1650px) {
+    width: 70%;
+  }
+
+  @media(max-width: 1488px) {
     width: 80%;
   }
 
