@@ -5,61 +5,64 @@ prev: "Lorem Ipsum is simply dummy text of the printing and typesetting industry
 ---
 # Como fazer primeiro projeto com React(NextJS)
 
-React e Next.js são duas das tecnologias mais populares no mundo do desenvolvimento web moderno. Juntas, elas podem ajudar a criar aplicativos web altamente dinâmicos e interativos. Se você é novo no React e Next.js, pode ser difícil saber por onde começar. Neste post, vamos dar uma olhada nos primeiros passos que você pode dar para começar a trabalhar com essas tecnologias.
-1. Instale as ferramentas necessárias
-Antes de começar a trabalhar com React e Next.js, é importante ter as ferramentas necessárias instaladas em seu computador. Você precisará do Node.js e do NPM (ou Yarn) instalados. O Node.js é uma plataforma que permite que você execute código JavaScript fora do navegador, enquanto o NPM e o Yarn são gerenciadores de pacotes que facilitam a instalação e gerenciamento de bibliotecas e dependências.
-2. Crie um novo projeto Next.js
-Agora que você tem as ferramentas necessárias instaladas, é hora de criar um novo projeto Next.js. Para fazer isso, abra seu terminal e execute os seguintes comandos:
-lua
+![Banner da postagem](/primeiro-projeto-nextjs.png)
+
+Se você está começando no mundo do desenvolvimento web com React, pode ser um pouco intimidante pensar em como criar seu primeiro projeto. Felizmente, o Next.js oferece uma ótima estrutura para ajudá-lo a dar seus primeiros passos no mundo do desenvolvimento web.
+
+O Next.js é um framework que permite criar aplicativos React com facilidade e rapidez. Ele oferece uma variedade de recursos, como renderização do lado do servidor (SSR), gerenciamento de rotas, suporte a CSS modular e muito mais. Com o Next.js, você pode criar aplicativos web de alta qualidade e escaláveis com facilidade.
+
+Neste post, vamos dar uma olhada em como criar seu primeiro projeto com React utilizando o Next.js. Vamos começar!
+
+## Pré-requisitos
+
+Antes de começar, você precisará ter o Node.js instalado em seu computador. Você pode baixá-lo a partir do site oficial do Node.js.
+
+## Passo 1: Criar um novo projeto
+
+O primeiro passo é criar um novo projeto Next.js. Abra o terminal e navegue até a pasta onde você deseja criar seu novo projeto. Em seguida, digite o seguinte comando:
 
 ```sh
-    npx create-next-app meu-projeto
-    cd meu-projeto
+    npx create-next-app my-project
+```
+Substitua "my-project" pelo nome que você deseja dar ao seu projeto. O comando acima criará uma nova pasta chamada "my-project" e instalará todas as dependências necessárias para o seu projeto.
+
+## Passo 2: Executar o projeto
+
+Depois que o projeto for criado, você poderá executá-lo no navegador digitando o seguinte comando no terminal:
+
+```sh
+    cd my-project
     npm run dev
 ```
 
-O primeiro comando criará um novo projeto Next.js chamado "meu-projeto". O segundo comando mudará para o diretório do projeto e o terceiro comando iniciará um servidor de desenvolvimento para que você possa começar a trabalhar.
-3. Crie um componente React
-Agora que você tem um projeto Next.js em execução, é hora de criar um componente React. Os componentes são blocos de construção fundamentais do React e são usados para criar interfaces de usuário. Para criar um novo componente, crie um novo arquivo na pasta "components" do seu projeto e adicione o seguinte código:
-jsx
+Este comando iniciará o servidor Next.js e abrirá o projeto no navegador.
+
+## Passo 3: Adicionar páginas
+
+Agora que o projeto está em execução, você pode começar a adicionar páginas ao seu aplicativo. Para adicionar uma nova página, crie um arquivo dentro da pasta "pages" com o nome que você deseja dar à sua página e com a extensão ".js".
+
+Por exemplo, se você quiser criar uma página chamada "about", crie um arquivo chamado "about.js" dentro da pasta "pages".
+
+Dentro desse arquivo, você pode adicionar seu código React como faria normalmente em um aplicativo React padrão.
+
+## Passo 4: Adicionar estilos
+
+O Next.js vem com suporte integrado para CSS modular. Para adicionar estilos a uma página, crie um arquivo com a extensão ".module.css" na mesma pasta que sua página. Em seguida, importe o arquivo de estilo em sua página da seguinte maneira:
 
 ```sh
-    import React from 'react'
-
-    function MeuComponente() {
-        return (
-         
-        )
-    }
-    export default MeuComponente
+   import styles from './styles.module.css'
 ```
 
-Este é um componente React simples que renderiza um título e um parágrafo. Você pode adicionar este componente a qualquer página do seu projeto Next.js para exibi-lo na interface do usuário.
-4. Adicione estilos com CSS
-Agora que você tem um componente React em funcionamento, é hora de adicionar estilos. O Next.js tem suporte embutido para CSS, então você pode adicionar arquivos CSS diretamente aos seus componentes. Crie um novo arquivo CSS na pasta "styles" do seu projeto e adicione o seguinte código:
-css
+Em seguida, você pode usar as classes definidas em seu arquivo de estilo em seus elementos HTML, como faria normalmente em um aplicativo React padrão.
 
-```sh
-    h1 {
-        font-size: 36px;
-        color: #333;
-    }
+## Passo 5: Deploy do aplicativo
 
-    p {
-        font-size: 18px;
-        color: #666;
-    }
-```
-    Este arquivo CSS define estilos para os elementos h1 e p. Agora, para usar esses estilos no seu componente React, importe o arquivo CSS no início do arquivo do componente:
-    jsx
+Por fim, você pode implantar seu aplicativo em um servidor. O Next.js torna isso muito fácil. Existem várias opções para hospedar seu aplicativo Next.js, incluindo a própria plataforma Vercel, que é mantida pelos criadores do Next.js.
 
-```sh
-    import React from 'react'
-    import styles from '../styles/MeuComponente.module.css'
+Para implantar seu aplicativo no Vercel, basta criar uma conta, conectar seu repositório ao Vercel e seguir as instruções para implantar seu aplicativo.
 
-    function MeuComponente() {
-    return (
-        <div>
-        <h1 className={styles.titulo}>Meu Componente</h1>
-        <p className={styles.paragrafo}>
-```
+## Conclusão
+
+Em resumo, o Next.js é uma ótima opção para quem está começando a trabalhar com React e deseja criar aplicativos web de alta qualidade e escaláveis. Com sua estrutura poderosa e recursos avançados, o Next.js simplifica o processo de criação de aplicativos React, permitindo que você se concentre em desenvolver recursos e funcionalidades para o seu aplicativo.
+
+Ao seguir os passos simples apresentados neste post, você pode criar seu primeiro projeto com React utilizando o Next.js com facilidade. Lembre-se de que a prática é a chave para se tornar um desenvolvedor web bem-sucedido, por isso não tenha medo de experimentar e explorar os recursos disponíveis no Next.js. Com o tempo, você pode criar aplicativos web incríveis que atendam às necessidades de seus usuários e ajudem você a crescer em sua carreira como desenvolvedor web.

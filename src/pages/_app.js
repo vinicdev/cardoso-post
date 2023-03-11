@@ -27,11 +27,21 @@ export default function App({ Component, pageProps }) {
 
           <nav className={active ? header.nav__menuActive : header.nav__container}>
             <Link href="/">
-              <p className={header.nav__link}>Home</p>
+              <p
+                className={header.nav__link}
+                onClick={() => setActive(false)}
+              >
+                Home
+              </p>
             </Link>
-            
+
             <Link href="/about">
-              <p className={header.nav__link}>Sobre</p>
+              <p
+                className={header.nav__link}
+                onClick={() => setActive(false)}
+              >
+                Sobre
+              </p>
             </Link>
           </nav>
 
@@ -46,17 +56,19 @@ export default function App({ Component, pageProps }) {
         </div>
 
         <footer className={footer.footer}>
-          <Image
-            src="/logo.png"
-            alt="Logo cardoso post"
-            width={42}
-            height={25}
-          />
+          <Link href="/">
+            <Image
+              src="/logo.png"
+              alt="Logo cardoso post"
+              width={42}
+              height={25}
+            />
+          </Link>
 
           <div className={footer.footer__author}>
-            Powered by 
+            Powered by
             <Link href="https://github.com/vinicdev">
-                Vinicius Cardoso
+              Vinicius Cardoso
             </Link>
           </div>
         </footer>

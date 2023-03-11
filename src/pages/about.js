@@ -20,23 +20,19 @@ export default function about() {
                     <h1>Sobre</h1>
 
                     <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting
-                        industry. Lorem Ipsum has been the industry standard dummy text
-                        ever since the 1500s, when an unknown printer took a galley of type
-                        and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting
-                        industry. Lorem Ipsum has been the industry standard dummy text
-                        ever since the 1500s, when an unknown printer took a galley of type
-                        and scrambled it to make a type specimen book.
+                        Vinicius Cardoso é um jovem desenvolvedor front-end com uma grande
+                        paixão pela tecnologia. Ele se formou como técnico em informática 
+                        e está atualmente cursando análise e desenvolvimento de sistemas 
+                        para expandir ainda mais seus conhecimentos e habilidades na área.
                     </p>
 
                     <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting
-                        industry. Lorem Ipsum has been the industry standard dummy text
-                        ever since the 1500s, when an unknown printer took a galley of type
-                        and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting
-                        industry. Lorem Ipsum has been the industry standard dummy text
-                        ever since the 1500s, when an unknown printer took a galley of type
-                        and scrambled it to make a type specimen book.
+                        Com apenas 22 anos de idade, Vinicius já possui experiência prática
+                        como desenvolvedor front-end junior, onde tem tido a oportunidade 
+                        de colocar em prática suas habilidades e aprender com os profissionais 
+                        mais experientes em sua equipe. Ele está sempre em busca de novos desafios e 
+                        oportunidades para crescer em sua carreira, e é um grande defensor do poder 
+                        da tecnologia para transformar o mundo em um lugar melhor.
                     </p>
                 </div>
             </section>
@@ -53,13 +49,13 @@ export default function about() {
                 <nav>
                     <ul>
                         <li>
-                            <Link href="">
+                            <Link href="https://github.com/vinicdev" target={'_blank'}>
                                 <BsGithub />
                             </Link>
                         </li>
 
                         <li>
-                            <Link href="">
+                            <Link href="https://www.linkedin.com/in/vinicdev/" target={'_blank'}>
                                 <BsLinkedin />
                             </Link>
                         </li>
