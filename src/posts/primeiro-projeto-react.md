@@ -1,7 +1,8 @@
 ---
 title: "Como fazer primeiro projeto com React(NextJS)"
-date: "02/02/2023"
+date: "02 de fevereiro de 2023"
 prev: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+author: "Vinicius Cardoso"
 ---
 # Como fazer primeiro projeto com React(NextJS)
 
@@ -9,13 +10,13 @@ prev: "Lorem Ipsum is simply dummy text of the printing and typesetting industry
 
 Se você está começando no mundo do desenvolvimento web com React, pode ser um pouco intimidante pensar em como criar seu primeiro projeto. Felizmente, o Next.js oferece uma ótima estrutura para ajudá-lo a dar seus primeiros passos no mundo do desenvolvimento web.
 
-O Next.js é um framework que permite criar aplicativos React com facilidade e rapidez. Ele oferece uma variedade de recursos, como renderização do lado do servidor (SSR), gerenciamento de rotas, suporte a CSS modular e muito mais. Com o Next.js, você pode criar aplicativos web de alta qualidade e escaláveis com facilidade.
+O [Next.js](https://nextjs.org/learn/foundations/about-nextjs) é um framework que permite criar aplicativos React com facilidade e rapidez. Ele oferece uma variedade de recursos, como renderização do lado do servidor (SSR), gerenciamento de rotas, suporte a CSS modular e muito mais. Com o Next.js, você pode criar aplicativos web de alta qualidade e escaláveis com facilidade.
 
 Neste post, vamos dar uma olhada em como criar seu primeiro projeto com React utilizando o Next.js. Vamos começar!
 
 ## Pré-requisitos
 
-Antes de começar, você precisará ter o Node.js instalado em seu computador. Você pode baixá-lo a partir do site oficial do Node.js.
+Antes de começar, você precisará ter o [Node.js](https://nodejs.org/pt-br/download/) instalado em seu computador. Você pode baixá-lo a partir do site oficial do Node.js.
 
 ## Passo 1: Criar um novo projeto
 
@@ -66,3 +67,5 @@ Para implantar seu aplicativo no Vercel, basta criar uma conta, conectar seu rep
 Em resumo, o Next.js é uma ótima opção para quem está começando a trabalhar com React e deseja criar aplicativos web de alta qualidade e escaláveis. Com sua estrutura poderosa e recursos avançados, o Next.js simplifica o processo de criação de aplicativos React, permitindo que você se concentre em desenvolver recursos e funcionalidades para o seu aplicativo.
 
 Ao seguir os passos simples apresentados neste post, você pode criar seu primeiro projeto com React utilizando o Next.js com facilidade. Lembre-se de que a prática é a chave para se tornar um desenvolvedor web bem-sucedido, por isso não tenha medo de experimentar e explorar os recursos disponíveis no Next.js. Com o tempo, você pode criar aplicativos web incríveis que atendam às necessidades de seus usuários e ajudem você a crescer em sua carreira como desenvolvedor web.
+
+***
