@@ -17,6 +17,15 @@ export default function App({ Component, pageProps }) {
       <Head>
         <title>cardosoPOST</title>
         <link rel="icon" href="/favicon.icon" />
+
+        {/* Social media meta */}
+        <meta property="og:description" content="Cardoso POST | O blog do programador" />
+        <meta property="og:image" content="/blog_cardoso_post.png"/>
+        <link href="/blog_cardoso_post.png" rel="image_src" />
+        <meta property="og:site_name" content="Cardoso POST" />
+        <meta property="og:title" content="Cardoso POST | O blog do programador" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://blog.vinic.dev/"/>
       </Head>
 
       <main className={styles.main}>
