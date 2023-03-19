@@ -1,11 +1,22 @@
 import ReactMarkdown from "react-markdown";
 import getPosts  from "@/lib/posts";
 import post from "@/styles/post.module.scss";
+import Link from "next/link";
 
 const Post = ({ date, markdown }) => (
     <article className={post.containter}>
         <time>{date}</time>
         <ReactMarkdown>{markdown}</ReactMarkdown>
+
+        <hr />
+
+        <p>
+            Gostaria muito de saber sua opinião sobre esta publicação! Deixe um feedback em meu <Link href="https://www.instagram.com/c4rdos0_/">Instagram</Link>  ou <Link href="https://www.linkedin.com/in/vinicdev/">LinkedIn</Link> e compartilhe suas ideias ou sugestões. Espero que o conteúdo tenha sido útil para você e agregado valor ao seu conhecimento.
+        </p>
+        
+        <p>
+            Obrigado, até a próxima!
+        </p>
     </article>
 );
 

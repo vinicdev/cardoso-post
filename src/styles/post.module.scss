@@ -47,8 +47,10 @@
     }
 
     hr {
-        width: 50%;
-        color: $basic-300 !important;
+        width: 80%;
+        height: 2px;
+        border: none;
+        background-color: $basic-500 !important;
         margin: 45px auto;
     }
 
@@ -71,6 +73,7 @@
         width: 100%;
         max-height: 350px;
         margin-bottom: 24px;
+        object-fit: cover;
     }
 
     pre {
@@ -81,5 +84,7 @@
         margin: 16px 0;
         border-radius: 8px;
         border-left: 1px solid #BB131A;
+        overflow-x: auto;
+        color: $red-300;
     }
 }
