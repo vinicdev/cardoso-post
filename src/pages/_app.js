@@ -15,23 +15,13 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>cardosoPOST</title>
-        <link rel="icon" href="/favicon.icon" />
-
-        {/* Social media meta */}
-        <meta property="og:description" content="Cardoso POST | O blog do programador" />
-        <meta property="og:image" content="/blog_cardoso_post.png"/>
-        <link href="/blog_cardoso_post.png" rel="image_src" />
-        <meta property="og:site_name" content="Cardoso POST" />
-        <meta property="og:title" content="Cardoso POST | O blog do programador" />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://blog.vinic.dev/"/>
+        <title>BLOG // cardosoPOST</title>
       </Head>
 
       <main className={styles.main}>
         <header className={header.nav}>
           <Link href="/" passHref className={header.nav__logo}>
-            <h1 className={header.nav__title}>cardoso<strong>post</strong></h1>
+            <p className={header.nav__title}>cardoso<strong>post</strong></p>
           </Link>
 
           <nav className={active ? header.nav__menuActive : header.nav__container}>
@@ -68,7 +58,8 @@ export default function App({ Component, pageProps }) {
           <Link href="/">
             <Image
               src="/logo.png"
-              alt="Logo cardoso post"
+              alt="Logo do blog sobre programação cardoso post"
+              title="O Blog do programador"
               width={42}
               height={25}
             />

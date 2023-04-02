@@ -7,6 +7,21 @@ export default function Document() {
       <Head>
         <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet" />
         <link rel="icon" type="image/x-icon" href="/logo.png" />
+        <link rel="icon" href="/favicon.icon" />
+        <link rel="canonical" href="http://blog.vinic.dev" />
+
+        <meta charset="UTF-8" />
+        <meta name="description" content="Aprimore suas habilidades em programação com o Cardoso Post - tutoriais, dicas e artigos de qualidade para iniciantes e especialistas. Confira agora!" />
+        <meta name="author" content="Vinicius Cardoso" />
+
+        {/* Social media meta */}
+        <meta property="og:description" content="Cardoso POST | O blog do programador" />
+        <meta property="og:image" content="/blog_cardoso_post.png" />
+        <link href="/blog_cardoso_post.png" rel="image_src" />
+        <meta property="og:site_name" content="Cardoso POST" />
+        <meta property="og:title" content="Cardoso POST | O blog do programador" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://blog.vinic.dev/" />
       </Head>
       <body>
         <Main />

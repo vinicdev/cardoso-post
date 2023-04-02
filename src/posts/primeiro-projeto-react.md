@@ -2,11 +2,12 @@
 title: "Como fazer primeiro projeto com React(NextJS)"
 date: "19 de março de 2023"
 prev: "Que tal aprimorar suas habilidades em desenvolvimento web aprendendo um pouco mais sobre React e criando seu primeiro projeto utilizando o Next.js, uma estrutura de código aberto que oferece uma experiência de desenvolvimento incrivelmente intuitiva e fácil?"
+descriptionSeo: "Aprimore suas habilidades em desenvolvimento web com React e Next.js - estrutura de código aberto intuitiva e fácil para criar projetos."
 author: "Vinicius Cardoso"
 ---
 # Como fazer primeiro projeto com React(NextJS)
 
-![Banner da postagem](/primeiro-projeto-nextjs.png)
+![Meu primeiro projeto com nextJS](/primeiro-projeto-nextjs.png)
 
 Se você está começando no mundo do desenvolvimento web com React, pode ser um pouco intimidante pensar em como criar seu primeiro projeto. Felizmente, o Next.js oferece uma ótima estrutura para ajudá-lo a dar seus primeiros passos no mundo do desenvolvimento web.
 

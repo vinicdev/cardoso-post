@@ -2,6 +2,7 @@
 title: "Como conseguir a primeira vaga de estágio como desenvolvedor 😱"
 date: "19 de março de 2023"
 prev: "Se você está procurando sua primeira vaga de estágio como desenvolvedor, existem algumas etapas importantes que você pode seguir para aumentar suas chances de sucesso e encurtar sua jornada para sua primeira oportunidade. Veja agora quais são essas dicas"
+descriptionSeo: "Confira nossas dicas para conquistar sua primeira vaga de estágio em desenvolvimento e acelerar sua jornada no mercado de trabalho."
 author: "Vinicius Cardoso"
 ---
 
