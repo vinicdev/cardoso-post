@@ -11,28 +11,25 @@ export default function about() {
                 <Image
                     src='/desenvolvedor-vinicius-cardoso.jpg'
                     alt='Desenvolvedor Vinicius Cardoso'
+                    title='Desenvolvedor front-end Vinicius Cardoso'
                     width={340}
                     height={340}
                     className={styles.container__logo}
                 />
 
                 <div className={styles.container__texts}>
-                    <h1>Sobre</h1>
+                    <h1>Saiba mais sobre o Cardoso</h1>
 
                     <p>
-                        Vinicius Cardoso é um jovem desenvolvedor front-end com uma grande
-                        paixão pela tecnologia. Ele se formou como técnico em informática 
-                        e está atualmente cursando análise e desenvolvimento de sistemas 
-                        para expandir ainda mais seus conhecimentos e habilidades na área.
+                        Eu sou Vinicius Cardoso, um jovem desenvolvedor front-end com paixão pela tecnologia. Fui formado como técnico em informática e atualmente estou cursando análise e desenvolvimento de sistemas para expandir meus conhecimentos e habilidades na área.
                     </p>
 
                     <p>
-                        Com apenas 22 anos de idade, Vinicius já possui experiência prática
-                        como desenvolvedor front-end junior, onde tem tido a oportunidade 
-                        de colocar em prática suas habilidades e aprender com os profissionais 
-                        mais experientes em sua equipe. Ele está sempre em busca de novos desafios e 
-                        oportunidades para crescer em sua carreira, e é um grande defensor do poder 
-                        da tecnologia para transformar o mundo em um lugar melhor.
+                        Com apenas 22 anos, já possuo experiência prática como desenvolvedor front-end júnior, onde tive a oportunidade de colocar em prática minhas habilidades e aprender com profissionais experientes em minha equipe. Estou sempre em busca de novos desafios e oportunidades para crescer em minha carreira, e acredito no poder da tecnologia para transformar o mundo em um lugar melhor.
+                    </p>
+
+                    <p>
+                        Criei um blog com o objetivo principal de consolidar meus conhecimentos em NextJS e aprender sobre novos assuntos relacionados a ele. Além de aprimorar minhas habilidades, também quero compartilhar conteúdos relevantes para desenvolvedores que, em minha opinião, são super interessantes.
                     </p>
                 </div>
             </section>
