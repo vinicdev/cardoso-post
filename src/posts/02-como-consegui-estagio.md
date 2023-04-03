@@ -8,7 +8,7 @@ author: "Vinicius Cardoso"
 
 # Como conseguir a primeira vaga de estágio como desenvolvedor 😱
 
-![Banner da postagem](/como-conseguir-vaga-de-estagio.jpg)
+![Como conseguir uma vaga de estágio](/como-conseguir-vaga-de-estagio.jpg)
 
 Conseguir a primeira vaga de estágio como desenvolvedor pode parecer um desafio assustador, mas existem algumas dicas que podem ajudá-lo a aumentar suas chances de sucesso. Aqui estão algumas etapas que você pode seguir:
 
