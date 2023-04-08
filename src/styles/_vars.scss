@@ -18,9 +18,21 @@ $red-200: #8C0609;
 $red-100: #750000;
 
 // MIXINS
-@mixin d-flex ($fd, $ai, $jc) {
+@mixin d-flex ($fd: row, $ai:flex-start, $jc: flex-start) {
     display: flex;
     flex-direction: $fd;
     align-items: $ai;
     justify-content: $jc;
+}
+
+@mixin p-16 {
+    text-align: justify;
+    font-size: 1rem;
+    color: #f2f2f2;
+}
+
+@mixin title($min, $max) {
+    color: #AAAAAA;
+    font-size: clamp($min, 4vw, $max);
+    text-transform: uppercase;
 }
