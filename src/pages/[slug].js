@@ -8,7 +8,6 @@ const Post = ({ date, markdown, title, descriptionSeo}) => (
     <>
         <Head>
             <title>{title}</title>
-            <meta name="description" content={descriptionSeo} />
         </Head>
 
         <article className={post.containter}>
