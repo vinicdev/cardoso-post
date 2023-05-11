@@ -8,7 +8,7 @@ const Post = ({ date, markdown, title, slug }) => (
     <>
         <Head>
             <title>{title}</title>
-            <link rel="canonical" href={`http://blog.vinic.dev/${slug}`} />
+            <link rel="canonical" href={`https://blog.vinic.dev/${slug}`} />
 
         </Head>
 
