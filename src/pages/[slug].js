@@ -4,10 +4,12 @@ import post from "@/styles/post.module.scss";
 import Link from "next/link";
 import Head from "next/head";
 
-const Post = ({ date, markdown, title, descriptionSeo}) => (
+const Post = ({ date, markdown, title, slug }) => (
     <>
         <Head>
             <title>{title}</title>
+            <link rel="canonical" href={`http://blog.vinic.dev/${slug}`} />
+
         </Head>
 
         <article className={post.containter}>

@@ -8,8 +8,6 @@ export default function Document() {
         <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet" />
         <link rel="icon" type="image/x-icon" href="/logo.png" />
         <link rel="icon" href="/favicon.icon" />
-        <link rel="canonical" href="http://blog.vinic.dev" />
-
         <meta charset="UTF-8" />
         <meta name="description" content="Aprimore suas habilidades em programação com o Cardoso Post - tutoriais, dicas e artigos de qualidade para iniciantes e especialistas. Confira agora!" />
         <meta name="author" content="Vinicius Cardoso" />
