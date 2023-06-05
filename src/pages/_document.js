@@ -5,6 +5,7 @@ export default function Document() {
   return (
     <Html lang="pt-br">
       <Head>
+        <link rel="canonical" href="https://blog.vinic.dev/" />
         <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet" />
         <link rel="icon" type="image/x-icon" href="/logo.png" />
         <link rel="icon" href="/favicon.icon" />
