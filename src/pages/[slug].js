@@ -27,8 +27,6 @@ const Post = ({ date, markdown, title, slug }) => (
                 Obrigado, até a próxima!
             </p>
         </article>
-
-        <Comments />
     </>
 );
 

@@ -7,6 +7,7 @@ const useScript = (params) => {
 
   const [status, setStatus] = useState(url ? "loading" : "idle");
 
+  console.log(params);
 
   // run the useEffect when the url of the script changes
   useEffect(() => {
@@ -14,7 +15,6 @@ const useScript = (params) => {
         setStatus("idle");
         return;
       }
-      // assuming there are no existing script and creating a new script
 
       let script = document.createElement("script");
       script.src = url;
@@ -53,7 +53,7 @@ const useScript = (params) => {
             */
 
         setStatus(event.type === "load" ? "ready" : "error");
-        
+
       };
 
       script.addEventListener("load", setAttributeStatus);
