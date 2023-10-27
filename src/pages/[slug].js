@@ -3,7 +3,6 @@ import getPosts from "@/lib/posts";
 import post from "@/styles/post.module.scss";
 import Link from "next/link";
 import Head from "next/head";
-import Comments from "@/components/comments";
 
 const Post = ({ date, markdown, title, slug }) => (
     <>
