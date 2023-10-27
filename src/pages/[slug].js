@@ -18,11 +18,9 @@ const Post = ({ date, markdown, title, slug }) => (
 
             <hr />
 
-            <p>
+            <p className={post.anuncio}>
                 Gostaria muito de saber sua opinião sobre esta publicação! Deixe um feedback em meu  <Link href="https://www.instagram.com/c4rdos0_/">Instagram</Link>, <Link href="https://www.linkedin.com/in/vinicdev/">LinkedIn</Link> ou no campo de comentário abaixo e compartilhe suas ideias ou sugestões. Espero que o conteúdo tenha sido útil para você e agregado valor ao seu conhecimento.
-            </p>
-
-            <p>
+                <br /><br />
                 Obrigado, até a próxima!
             </p>
         </article>
