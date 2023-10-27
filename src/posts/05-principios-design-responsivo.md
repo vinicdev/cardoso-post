@@ -1,7 +1,7 @@
 ---
 title: "Princípios de Design Responsivo"
 date: "27 de outubro de 2023"
-prev: "Se você é um programador front-end, provavelmente já ouviu falar do SASS - Syntactically Awesome Style Sheets. SASS é um pré-processador de CSS que permite que você escreva estilos de maneira mais eficiente e organizada."
+prev: "Você sabe qual a importância de criar um layout responsivo?"
 author: "Vinicius Cardoso"
 ---
 
