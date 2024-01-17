@@ -34,7 +34,7 @@ export default function about() {
                         </p>
 
                         <p>
-                            Com apenas 22 anos, já possuo experiência prática como desenvolvedor front-end júnior, onde tive a oportunidade de colocar em prática minhas habilidades e aprender com profissionais experientes em minha equipe. Estou sempre em busca de novos desafios e oportunidades para crescer em minha carreira, e acredito no poder da tecnologia para transformar o mundo em um lugar melhor.
+                            Com apenas 23 anos, já possuo experiência prática como desenvolvedor front-end júnior, onde tive a oportunidade de colocar em prática minhas habilidades e aprender com profissionais experientes em minha equipe. Estou sempre em busca de novos desafios e oportunidades para crescer em minha carreira, e acredito no poder da tecnologia para transformar o mundo em um lugar melhor.
                         </p>
 
                         <p>
