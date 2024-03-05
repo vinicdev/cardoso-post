@@ -2,7 +2,7 @@ import Link from "next/link";
 import { useState } from "react";
 import style from "@/styles/navBar.module.scss";
 import { ImMenu } from "react-icons/im";
-import { FaWhatsapp, FaInstagram, FaGithub } from "react-icons/fa";
+import { FaWhatsapp, FaLinkedin, FaGithub } from "react-icons/fa";
 
 export default function Header() {
   const [active, setActive] = useState(false);
@@ -48,7 +48,7 @@ export default function Header() {
                 href="https://www.linkedin.com/in/vinicdev/"
                 target="_blank"
               >
-                <FaInstagram />
+                <FaLinkedin />
               </Link>
             </li>
 
