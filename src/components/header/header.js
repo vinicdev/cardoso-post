@@ -44,19 +44,25 @@ export default function Header() {
         <div className={active ? style.nav__linkSocial : style.disabled}>
           <ul>
             <li>
-              <Link href="https://www.linkedin.com/in/vinicdev/">
+              <Link
+                href="https://www.linkedin.com/in/vinicdev/"
+                target="_blank"
+              >
                 <FaInstagram />
               </Link>
             </li>
 
             <li>
-              <Link href="https://github.com/vinicdev">
+              <Link href="https://github.com/vinicdev" target="_blank">
                 <FaGithub />
               </Link>
             </li>
 
             <li>
-              <Link href="https://api.whatsapp.com/send?phone=5541998304073">
+              <Link
+                href="https://api.whatsapp.com/send?phone=5541998304073"
+                target="_blank"
+              >
                 <FaWhatsapp />
               </Link>
             </li>
