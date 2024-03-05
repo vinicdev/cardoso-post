@@ -1,17 +1,13 @@
-import '@/styles/globals.scss'
-import header from '@/styles/navBar.module.scss';
-import footer from '@/styles/Footer.module.scss';
-import styles from '@/styles/Home.module.scss'
-import Head from 'next/head'
-import Link from 'next/link';
-import { useState } from 'react';
-import { ImMenu } from 'react-icons/im';
-import Image from 'next/image';
-
+import "@/styles/globals.scss";
+import footer from "@/styles/Footer.module.scss";
+import styles from "@/styles/Home.module.scss";
+import Head from "next/head";
+import Link from "next/link";
+import { useState } from "react";
+import Image from "next/image";
+import Header from "@/components/header/header";
 
 export default function App({ Component, pageProps }) {
-  const [active, setActive] = useState(false);
-
   return (
     <>
       <Head>
@@ -19,36 +15,7 @@ export default function App({ Component, pageProps }) {
       </Head>
 
       <main className={styles.main}>
-        <header className={header.nav}>
-          <Link href="/" passHref className={header.nav__logo}>
-            <p className={header.nav__title}>cardoso<strong>post</strong></p>
-          </Link>
-
-          <nav className={active ? header.nav__menuActive : header.nav__container}>
-            <Link href="/">
-              <p
-                className={header.nav__link}
-                onClick={() => setActive(false)}
-              >
-                Home
-              </p>
-            </Link>
-
-            <Link href="/about">
-              <p
-                className={header.nav__link}
-                onClick={() => setActive(false)}
-              >
-                Sobre
-              </p>
-            </Link>
-          </nav>
-
-          <ImMenu
-            className='menu'
-            onClick={() => setActive(!active)}
-          />
-        </header>
+        <Header />
 
         <div className={styles.spaceProps}>
           <Component {...pageProps} />
@@ -67,13 +34,10 @@ export default function App({ Component, pageProps }) {
 
           <div className={footer.footer__author}>
             Powered by
-            <Link href="https://github.com/vinicdev">
-              Vinicius Cardoso
-            </Link>
+            <Link href="https://github.com/vinicdev">Vinicius Cardoso</Link>
           </div>
         </footer>
       </main>
     </>
-
-  )
+  );
 }
